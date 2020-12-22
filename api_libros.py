@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request as req, render_template
 import pandas as pd
 from sqlalchemy import *
-import json
+# import json
 
 
 engine = create_engine('mysql+pymysql://root:password@localhost/db_books', echo=False)
