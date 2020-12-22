@@ -1,1 +1,1 @@
-web: gunicorn services/api_libros.py:app
+web: gunicorn api_libros:app
